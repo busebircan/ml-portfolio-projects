@@ -317,7 +317,7 @@ MIT License - Feel free to use these projects for learning and commercial purpos
 
 ## 👤 Author
 
-Created as a comprehensive ML portfolio showcasing real-world applications.
+Created by Buse Bircan as a comprehensive ML portfolio showcasing real-world applications.
 
 ---
 
