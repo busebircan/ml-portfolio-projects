@@ -182,7 +182,7 @@ python predict.py
 
 ## Author
 
-Created as part of ML Portfolio Projects
+Created by Buse Bircan as part of ML Portfolio Projects
 
 ## License
 
