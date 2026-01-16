@@ -136,7 +136,7 @@ If Electronics has elasticity of -1.5:
 
 ## Author
 
-Created as part of ML Portfolio Projects
+Created by Buse Bircan as part of ML Portfolio Projects
 
 ## License
 
