@@ -6,9 +6,31 @@ A comprehensive collection of 10 industry-specific machine learning projects sho
 
 This repository contains production-ready machine learning projects with complete implementations, documentation, and synthetic datasets. Each project demonstrates best practices in data science, model development, and deployment.
 
-### Finance (2 Projects)
+## 📁 Repository Structure
 
-#### 1. [Dynamic Pricing Optimization](01-dynamic-pricing/)
+```
+ml-portfolio-projects/
+├── Finance/
+│   ├── 01-dynamic-pricing/
+│   └── 02-credit-risk-scoring/
+├── Retail & E-commerce/
+│   ├── 03-demand-forecasting/
+│   ├── 04-price-elasticity/
+│   └── 05-multi-store-sku-forecasting/
+├── Telecommunications/
+│   ├── 06-network-churn-prediction/
+│   └── 07-call-drop-prediction/
+└── Healthcare/
+    ├── 08-hospital-readmission/
+    ├── 09-sepsis-detection/
+    └── 10-drug-recommendation/
+```
+
+---
+
+## 🏦 Finance
+
+### 1. [Dynamic Pricing Optimization](Finance/01-dynamic-pricing/)
 Optimize pricing strategies based on demand, competition, and inventory levels using machine learning.
 
 **Key Features:**
@@ -17,10 +39,10 @@ Optimize pricing strategies based on demand, competition, and inventory levels u
 - Inventory-aware pricing
 - Profit maximization
 
-**Technologies:** Gradient Boosting, Feature Engineering, Time Series Analysis
+**Technologies:** Gradient Boosting, Feature Engineering, Time Series Analysis  
 **Model Performance:** R² = 0.85-0.90
 
-#### 2. [Credit Risk Scoring with Alternative Data](02-credit-risk-scoring/)
+### 2. [Credit Risk Scoring with Alternative Data](Finance/02-credit-risk-scoring/)
 Assess credit risk using both traditional and alternative data sources for better lending decisions.
 
 **Key Features:**
@@ -29,12 +51,14 @@ Assess credit risk using both traditional and alternative data sources for bette
 - Risk categorization
 - Fair lending compliance
 
-**Technologies:** Gradient Boosting Classification, Feature Engineering
+**Technologies:** Gradient Boosting Classification, Feature Engineering  
 **Model Performance:** ROC-AUC = 0.85-0.90
 
-### Retail & E-commerce (3 Projects)
+---
 
-#### 3. [Demand Forecasting with Inventory Optimization](03-demand-forecasting/)
+## 🛒 Retail & E-commerce
+
+### 3. [Demand Forecasting with Inventory Optimization](Retail%20%26%20E-commerce/03-demand-forecasting/)
 Forecast demand and optimize inventory parameters including safety stock and reorder points.
 
 **Key Features:**
@@ -43,10 +67,10 @@ Forecast demand and optimize inventory parameters including safety stock and reo
 - Economic Order Quantity (EOQ)
 - Multi-product support
 
-**Technologies:** Gradient Boosting, Time Series Analysis, Inventory Theory
+**Technologies:** Gradient Boosting, Time Series Analysis, Inventory Theory  
 **Model Performance:** MAPE = 10-15%
 
-#### 4. [Price Elasticity Analysis](04-price-elasticity/)
+### 4. [Price Elasticity Analysis](Retail%20%26%20E-commerce/04-price-elasticity/)
 Analyze how price changes affect demand across product categories.
 
 **Key Features:**
@@ -55,10 +79,10 @@ Analyze how price changes affect demand across product categories.
 - Revenue impact analysis
 - Competitive pricing insights
 
-**Technologies:** Linear Regression, Random Forest, Econometric Analysis
+**Technologies:** Linear Regression, Random Forest, Econometric Analysis  
 **Model Performance:** R² = 0.80-0.85
 
-#### 5. [Multi-Store SKU Forecasting](05-multi-store-sku-forecasting/)
+### 5. [Multi-Store SKU Forecasting](Retail%20%26%20E-commerce/05-multi-store-sku-forecasting/)
 Forecast sales for multiple products across multiple store locations.
 
 **Key Features:**
@@ -67,12 +91,14 @@ Forecast sales for multiple products across multiple store locations.
 - Temporal dynamics
 - Scalable architecture
 
-**Technologies:** Gradient Boosting (per-store models), Feature Engineering
+**Technologies:** Gradient Boosting (per-store models), Feature Engineering  
 **Model Performance:** MAPE = 10-15%
 
-### Telecommunications (2 Projects)
+---
 
-#### 6. [Network Churn Prediction](06-network-churn-prediction/)
+## 📱 Telecommunications
+
+### 6. [Network Churn Prediction](Telecommunications/06-network-churn-prediction/)
 Predict which customers will switch carriers based on usage patterns and service quality.
 
 **Key Features:**
@@ -81,10 +107,10 @@ Predict which customers will switch carriers based on usage patterns and service
 - Competitive factor assessment
 - Risk stratification
 
-**Technologies:** Gradient Boosting Classification, Feature Importance
+**Technologies:** Gradient Boosting Classification, Feature Importance  
 **Model Performance:** ROC-AUC = 0.85-0.90
 
-#### 7. [Call Drop Prediction](07-call-drop-prediction/)
+### 7. [Call Drop Prediction](Telecommunications/07-call-drop-prediction/)
 Identify network issues before customers complain by predicting call drops.
 
 **Key Features:**
@@ -93,12 +119,14 @@ Identify network issues before customers complain by predicting call drops.
 - Proactive maintenance
 - Risk level categorization
 
-**Technologies:** Gradient Boosting Classification, Real-time Processing
+**Technologies:** Gradient Boosting Classification, Real-time Processing  
 **Model Performance:** ROC-AUC = 0.82-0.87
 
-### Healthcare (3 Projects)
+---
 
-#### 8. [Hospital Readmission Prediction](08-hospital-readmission/)
+## 🏥 Healthcare
+
+### 8. [Hospital Readmission Prediction](Healthcare/08-hospital-readmission/)
 Predict 30-day readmissions for diabetic patients using EHR data.
 
 **Key Features:**
@@ -107,10 +135,10 @@ Predict 30-day readmissions for diabetic patients using EHR data.
 - Social factor integration
 - Intervention targeting
 
-**Technologies:** Gradient Boosting Classification, Feature Engineering
+**Technologies:** Gradient Boosting Classification, Feature Engineering  
 **Model Performance:** ROC-AUC = 0.80-0.85
 
-#### 9. [Early Sepsis Detection](09-sepsis-detection/)
+### 9. [Early Sepsis Detection](Healthcare/09-sepsis-detection/)
 Predict sepsis 6 hours before clinical onset using time-series clinical data.
 
 **Key Features:**
@@ -119,10 +147,10 @@ Predict sepsis 6 hours before clinical onset using time-series clinical data.
 - Lab value integration
 - Real-time monitoring
 
-**Technologies:** Gradient Boosting Classification, Time Series Analysis
+**Technologies:** Gradient Boosting Classification, Time Series Analysis  
 **Model Performance:** ROC-AUC = 0.85-0.90
 
-#### 10. [Drug Recommendation System](10-drug-recommendation/)
+### 10. [Drug Recommendation System](Healthcare/10-drug-recommendation/)
 Recommend medications based on patient conditions, lab values, and medical history.
 
 **Key Features:**
@@ -131,8 +159,10 @@ Recommend medications based on patient conditions, lab values, and medical histo
 - Allergy awareness
 - Evidence-based suggestions
 
-**Technologies:** Multi-label Random Forest, Medical Knowledge Integration
+**Technologies:** Multi-label Random Forest, Medical Knowledge Integration  
 **Model Performance:** Accuracy = 0.80-0.90
+
+---
 
 ## 🚀 Quick Start
 
@@ -150,7 +180,7 @@ cd ml-portfolio-projects
 
 2. Navigate to any project folder:
 ```bash
-cd 01-dynamic-pricing
+cd Finance/01-dynamic-pricing
 ```
 
 3. Install dependencies:
@@ -163,9 +193,6 @@ pip install -r requirements.txt
 Each project follows the same structure:
 
 ```bash
-# Generate synthetic data
-python generate_data.py
-
 # Train the model
 python train.py
 
@@ -173,30 +200,7 @@ python train.py
 python predict.py
 ```
 
-## 📁 Repository Structure
-
-```
-ml-portfolio-projects/
-├── 01-dynamic-pricing/
-│   ├── generate_data.py
-│   ├── dynamic_pricing_model.py
-│   ├── train.py
-│   ├── predict.py
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── data/
-│   └── models/
-├── 02-credit-risk-scoring/
-├── 03-demand-forecasting/
-├── 04-price-elasticity/
-├── 05-multi-store-sku-forecasting/
-├── 06-network-churn-prediction/
-├── 07-call-drop-prediction/
-├── 08-hospital-readmission/
-├── 09-sepsis-detection/
-├── 10-drug-recommendation/
-└── README.md (this file)
-```
+---
 
 ## 🛠️ Technologies Used
 
@@ -213,6 +217,8 @@ ml-portfolio-projects/
 ### Model Persistence
 - **joblib**: Model serialization
 
+---
+
 ## 📊 Model Comparison
 
 | Project | Algorithm | Task Type | Performance |
@@ -228,6 +234,8 @@ ml-portfolio-projects/
 | Sepsis Detection | Gradient Boosting | Classification | ROC-AUC = 0.88 |
 | Drug Recommendation | Random Forest | Multi-label | Accuracy = 0.85 |
 
+---
+
 ## 🎯 Key Features
 
 - **Production-Ready Code**: Clean, well-documented, and modular
@@ -236,6 +244,8 @@ ml-portfolio-projects/
 - **Best Practices**: Feature engineering, model evaluation, validation
 - **Scalability**: Designed for real-world deployment
 - **Reproducibility**: Fixed random seeds for consistent results
+
+---
 
 ## 📚 Learning Outcomes
 
@@ -248,18 +258,20 @@ By exploring these projects, you'll learn:
 5. **Evaluation Metrics**: Proper model assessment techniques
 6. **Best Practices**: Production-ready code standards
 
+---
+
 ## 🔍 Project Details
 
 Each project includes:
 
 - **README.md**: Comprehensive project documentation
-- **generate_data.py**: Synthetic data generation
 - **model.py**: Core ML implementation
 - **train.py**: Model training script
 - **predict.py**: Prediction and inference script
 - **requirements.txt**: Python dependencies
-- **data/**: Training and test datasets
-- **models/**: Trained model artifacts
+- **models/**: Trained model artifacts (generated after training)
+
+---
 
 ## 💡 Use Cases
 
@@ -283,37 +295,54 @@ Each project includes:
 - Sepsis early warning systems
 - Clinical decision support
 
+---
+
 ## 🤝 Contributing
 
 Feel free to fork, modify, and extend these projects for your own use cases. Each project is designed to be modular and adaptable.
+
+---
 
 ## 📖 References
 
 Each project includes relevant academic papers and industry resources in its README.
 
+---
+
 ## 📝 License
 
 MIT License - Feel free to use these projects for learning and commercial purposes.
+
+---
 
 ## 👤 Author
 
 Created as a comprehensive ML portfolio showcasing real-world applications.
 
-## 🔗 Quick Links
+---
 
-- [Dynamic Pricing](01-dynamic-pricing/README.md)
-- [Credit Risk Scoring](02-credit-risk-scoring/README.md)
-- [Demand Forecasting](03-demand-forecasting/README.md)
-- [Price Elasticity](04-price-elasticity/README.md)
-- [Multi-Store SKU](05-multi-store-sku-forecasting/README.md)
-- [Network Churn](06-network-churn-prediction/README.md)
-- [Call Drop Prediction](07-call-drop-prediction/README.md)
-- [Hospital Readmission](08-hospital-readmission/README.md)
-- [Sepsis Detection](09-sepsis-detection/README.md)
-- [Drug Recommendation](10-drug-recommendation/README.md)
+## 🔗 Quick Navigation
+
+### Finance
+- [Dynamic Pricing Optimization](Finance/01-dynamic-pricing/README.md)
+- [Credit Risk Scoring](Finance/02-credit-risk-scoring/README.md)
+
+### Retail & E-commerce
+- [Demand Forecasting](Retail%20%26%20E-commerce/03-demand-forecasting/README.md)
+- [Price Elasticity Analysis](Retail%20%26%20E-commerce/04-price-elasticity/README.md)
+- [Multi-Store SKU Forecasting](Retail%20%26%20E-commerce/05-multi-store-sku-forecasting/README.md)
+
+### Telecommunications
+- [Network Churn Prediction](Telecommunications/06-network-churn-prediction/README.md)
+- [Call Drop Prediction](Telecommunications/07-call-drop-prediction/README.md)
+
+### Healthcare
+- [Hospital Readmission Prediction](Healthcare/08-hospital-readmission/README.md)
+- [Early Sepsis Detection](Healthcare/09-sepsis-detection/README.md)
+- [Drug Recommendation System](Healthcare/10-drug-recommendation/README.md)
 
 ---
 
 **Last Updated:** January 2026
 
-**Status:** Complete with 10 production-ready projects
+**Status:** Complete with 10 production-ready projects organized by industry
