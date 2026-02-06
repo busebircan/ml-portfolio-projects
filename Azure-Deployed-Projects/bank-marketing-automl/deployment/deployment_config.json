@@ -1,0 +1,40 @@
+{
+  "deployment_name": "mlportfolio-hwksp",
+  "model_name": "BankMarketingMLBest",
+  "model_version": 1,
+  "compute_type": "Managed",
+  "region": "uksouth",
+  "authentication": {
+    "type": "Key",
+    "enabled": true
+  },
+  "compute_config": {
+    "cpu_cores": 1,
+    "memory_gb": 1,
+    "autoscale_enabled": false
+  },
+  "monitoring": {
+    "app_insights_enabled": true,
+    "data_collection_enabled": true
+  },
+  "network": {
+    "public_access": "Enabled",
+    "private_endpoint": false
+  },
+  "endpoints": {
+    "scoring_uri": "https://mlportfolio-hwksp.uksouth.inference.ml.azure.com/score",
+    "swagger_uri": "https://mlportfolio-hwksp.uksouth.inference.ml.azure.com/swagger.json"
+  },
+  "deployment_metadata": {
+    "created_by": "Buse BIRCAN",
+    "created_on": "2026-02-03T16:16:00Z",
+    "last_updated": "2026-02-03T16:16:00Z",
+    "status": "Succeeded"
+  },
+  "model_metadata": {
+    "algorithm": "StandardScalerWrapper, XGBoostClassifier",
+    "auc_weighted": 0.93028,
+    "training_framework": "Azure AutoML",
+    "model_format": "MLFLOW"
+  }
+}
